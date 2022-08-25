@@ -11,4 +11,4 @@ app.config['SQLALCHEMY_DATABASE_URI'] = config.get('SQLALCHEMY_DATABASE_URI')
 db = SQLAlchemy(app)
 login_manager = LoginManager()
 login_manager.init_app(app)
-from flask_app import routes
+from coronaCon_app import routes
